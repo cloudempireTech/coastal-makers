@@ -46,7 +46,7 @@ async function main() {
   
   if (checkRes.status === 404) {
     console.log(`Repo does not exist. Creating ${ORG}/${REPO}...`);
-    const createRes = await makeGithubRequest('POST', `/orgs/${ORG}/repos`, {
+    const createRes = await makeGithubRequest('POST', `/user/repos`, {
       name: REPO,
       description: 'Coastal Makers | Custom 3D Printed Décor & Rapid Prototyping Sydney',
       private: false,
