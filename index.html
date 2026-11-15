@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coastal Makers | Custom 3D Printed Décor & Rapid Prototyping Sydney</title>
+  <meta name="description" content="Sydney's premier 3D printing studio crafting bespoke coastal décor, parametric lamps, topographic ocean maps, and rapid industrial prototypes in eco bio-polymers.">
+  
+  <!-- Favicon Suite -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Floating Navigation Bar -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-link">
+        <img src="assets/images/logo.png" alt="Coastal Makers Emblem" class="brand-logo">
+        <div class="brand-info">
+          <span class="brand-title">COASTAL MAKERS</span>
+          <span class="brand-sub">ADDITIVE CRAFT • SYDNEY</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="products.html" class="nav-link">Creations</a></li>
+        <li><a href="materials.html" class="nav-link">Materials</a></li>
+        <li><a href="custom-orders.html" class="nav-link">Custom Studio</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'd%20like%20to%20discuss%20a%20custom%203D%20printing%20order" class="btn-cta-pill" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+          Inquire Now
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="index.html" class="mobile-nav-link">Home</a>
+    <a href="products.html" class="mobile-nav-link">Bespoke Creations</a>
+    <a href="materials.html" class="mobile-nav-link">Eco Materials Guide</a>
+    <a href="custom-orders.html" class="mobile-nav-link">Custom Studio & CAD</a>
+    <a href="contact.html" class="mobile-nav-link">Contact Sydney Studio</a>
+    <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'd%20like%20to%20discuss%20a%20custom%203D%20printing%20order" class="btn-hero-primary" target="_blank" rel="noopener">
+      WhatsApp Studio Direct
+    </a>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <video class="hero-video-bg" autoplay muted loop playsinline poster="assets/videos/hero-poster.jpg">
+      <source src="assets/videos/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <span class="live-beacon"></span> SYDNEY ADDITIVE CRAFT STUDIO
+      </div>
+      <h1 class="hero-title">
+        Next-Generation <span class="text-gradient"><span class="dynamic-typewriter">Precision 3D Craft.</span></span>
+      </h1>
+      <p class="hero-subtitle">
+        Bespoke coastal lighting, topographic marine sculptures, and rapid functional prototyping designed & manufactured in Sydney using 100% biodegradable polymers.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#estimator" class="btn-hero-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Instant Print Estimator
+        </a>
+        <a href="products.html" class="btn-hero-secondary">
+          Explore Creations
+        </a>
+      </div>
+
+      <!-- 4 Telemetry Stats above 844px Fold on Mobile -->
+      <div class="hero-telemetry-grid">
+        <div class="hero-stat-card">
+          <div class="hero-stat-val stat-counter" data-target="0.08" data-suffix="mm" data-decimals="2">0.08mm</div>
+          <div class="hero-stat-lbl">Layer Precision</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-val stat-counter" data-target="100" data-suffix="%" data-decimals="0">100%</div>
+          <div class="hero-stat-lbl">Bio Polymers</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-val stat-counter" data-target="48" data-suffix="hr" data-decimals="0">48hr</div>
+          <div class="hero-stat-lbl">Fast Turnaround</div>
+        </div>
+        <div class="hero-stat-card">
+          <div class="hero-stat-val">Sydney</div>
+          <div class="hero-stat-lbl">Local Workshop</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collections Section -->
+  <section class="section" id="creations">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Signature Creations</span>
+        <h2 class="section-title">Crafted for Coastal Interiors & Design Studios</h2>
+        <p class="section-subtitle">Each piece is algorithmically designed and precision-manufactured layer by layer in our Sydney additive studio.</p>
+      </div>
+
+      <div class="grid-3">
+        <!-- Item 1 -->
+        <div class="offering-card">
+          <div class="card-img-wrap">
+            <img src="assets/images/decor-parametric-lamp.jpg" alt="Parametric Wave Lamp" loading="lazy">
+            <span class="card-pill-tag">Bestseller</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Parametric Ripple Pendant Lamp</h3>
+            <p class="card-desc">Organic acoustic ripples that cast diffuse golden warm light across living spaces. Printed in pure translucent eco-PLA.</p>
+            <div class="card-specs">
+              <span class="spec-badge">0.12mm Layer</span>
+              <span class="spec-badge">Warm Diffuse</span>
+              <span class="spec-badge">E27 Mount</span>
+            </div>
+            <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'm%20interested%20in%20the%20Parametric%20Ripple%20Pendant%20Lamp" class="btn-card-inquire" target="_blank" rel="noopener">Inquire via WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="offering-card">
+          <div class="card-img-wrap">
+            <img src="assets/images/decor-topographic-map.jpg" alt="Sydney Coast Topographic Map" loading="lazy">
+            <span class="card-pill-tag">Custom Relief</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Sydney Coast Bathymetric Relief</h3>
+            <p class="card-desc">High-resolution elevation contours of Sydney Harbour, Bondi, and Manly carved in multi-tone ocean resin filaments.</p>
+            <div class="card-specs">
+              <span class="spec-badge">Bathymetric Data</span>
+              <span class="spec-badge">Multi-Tone</span>
+              <span class="spec-badge">Framed Oak</span>
+            </div>
+            <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'm%20interested%20in%20custom%20Sydney%20Topographic%20Maps" class="btn-card-inquire" target="_blank" rel="noopener">Inquire via WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="offering-card">
+          <div class="card-img-wrap">
+            <img src="assets/images/decor-lithophane-art.jpg" alt="Bespoke Backlit Lithophane" loading="lazy">
+            <span class="card-pill-tag">Personalized</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Backlit Memory Lithophane Panels</h3>
+            <p class="card-desc">Transform cherished ocean photography and family portraits into three-dimensional porcelain-like translucent light panels.</p>
+            <div class="card-specs">
+              <span class="spec-badge">0.08mm Fine Detail</span>
+              <span class="spec-badge">LED Dock</span>
+              <span class="spec-badge">Matte Ivory</span>
+            </div>
+            <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'd%20like%20to%20order%20a%20Custom%20Lithophane%20Panel" class="btn-card-inquire" target="_blank" rel="noopener">Inquire via WhatsApp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Dimensional Print & Material Estimator Section -->
+  <section class="section-alt" id="estimator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Interactive Tool</span>
+        <h2 class="section-title">Bespoke 3D Print & Material Estimator</h2>
+        <p class="section-subtitle">Calculate estimated filament weight, build duration, and eco-profile for your custom project.</p>
+      </div>
+
+      <div class="estimator-container">
+        <div class="estimator-grid">
+          <!-- Controls -->
+          <div class="calculator-controls">
+            <div class="calc-group">
+              <label class="calc-label">Target Dimensions (Centimeters)</label>
+              <div class="input-row">
+                <div>
+                  <span style="font-size: 0.75rem; color: #64748b;">Length (cm)</span>
+                  <input type="number" id="dimLength" class="calc-input" value="18" min="2" max="60">
+                </div>
+                <div>
+                  <span style="font-size: 0.75rem; color: #64748b;">Width (cm)</span>
+                  <input type="number" id="dimWidth" class="calc-input" value="14" min="2" max="60">
+                </div>
+                <div>
+                  <span style="font-size: 0.75rem; color: #64748b;">Height (cm)</span>
+                  <input type="number" id="dimHeight" class="calc-input" value="22" min="2" max="60">
+                </div>
+              </div>
+            </div>
+
+            <div class="calc-group">
+              <label class="calc-label" for="calcMaterial">Material Selection</label>
+              <select id="calcMaterial" class="calc-select">
+                <option value="pla_silk" selected>Silk Bio-PLA (Lustrous Décor & Vases)</option>
+                <option value="petg_marine">Marine PETG (Weatherproof & Salt-Resistant)</option>
+                <option value="sandstone">Sandstone Composite (Textured Architectural)</option>
+                <option value="wood_polymer">Timber Bio-Polymer (Organic Wood Finish)</option>
+              </select>
+            </div>
+
+            <div class="calc-group">
+              <label class="calc-label" for="calcInfill">Structural Infill Density</label>
+              <select id="calcInfill" class="calc-select">
+                <option value="0.15" selected>15% Gyroid Infill (Decorative & Lightweight)</option>
+                <option value="0.30">30% Grid Infill (Functional Accents)</option>
+                <option value="0.60">60% Dense Core (Heavy Duty Fixtures)</option>
+                <option value="1.00">100% Solid Solidified (Maximum Rigidity)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Live Output Panel -->
+          <div class="estimator-output-panel">
+            <div class="output-header">Additive Build Telemetry</div>
+            <div class="output-metrics">
+              <div class="output-stat">
+                <span class="output-stat-num" id="estWeight">184g</span>
+                <span class="output-stat-label">Estimated Filament</span>
+              </div>
+              <div class="output-stat">
+                <span class="output-stat-num" id="estHours">11 hrs</span>
+                <span class="output-stat-label">Production Time</span>
+              </div>
+              <div class="output-stat">
+                <span class="output-stat-num" id="estRes" style="font-size: 1.25rem;">0.08mm Ultra</span>
+                <span class="output-stat-label">Layer Resolution</span>
+              </div>
+              <div class="output-stat">
+                <span class="output-stat-num" id="estEco" style="font-size: 1.25rem;">100% Bio</span>
+                <span class="output-stat-label">Eco Metric</span>
+              </div>
+            </div>
+
+            <div class="output-notice">
+              Estimates are calculated using our high-speed CoreXY print cluster located in Sydney. 
+            </div>
+
+            <a href="#" id="calcWaInquireBtn" class="btn-hero-primary" target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+              Inquire This Print via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Reviews Section -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Client Testimonials</span>
+        <h2 class="section-title">Loved by Sydney Designers & Architects</h2>
+        <p class="section-subtitle">Verified 5.0-Star Google feedback from local homeowners, creatives, and design agencies.</p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <p class="review-text">"The bespoke Sydney Harbour bathymetric relief map they printed for our living room is a true conversation starter. The depth layers and surface finish are unmatched."</p>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">LM</div>
+            <div>
+              <div class="reviewer-name">Liam Miller</div>
+              <div class="reviewer-loc">Bondi Beach, Sydney</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <p class="review-text">"Needed architectural prototype models turned around in 48 hours for a client presentation in Barangaroo. Flawless 0.08mm dimensional accuracy and clean eco-PLA."</p>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">SK</div>
+            <div>
+              <div class="reviewer-name">Sarah Kowalski</div>
+              <div class="reviewer-loc">Surry Hills Architecture Studio</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-rating">★★★★★</div>
+          <p class="review-text">"Ordered 25 customized parametric planters for a corporate event in Manly. Everyone was amazed by the geometric precision and modern aesthetic."</p>
+          <div class="reviewer-meta">
+            <div class="reviewer-avatar">DT</div>
+            <div>
+              <div class="reviewer-name">David Thornton</div>
+              <div class="reviewer-loc">Northern Beaches, NSW</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WhatsApp Quick Form Section -->
+  <section class="section-alt" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Connect with Studio</span>
+        <h2 class="section-title">Start Your Custom 3D Build</h2>
+        <p class="section-subtitle">Send your project specs or STL CAD files directly to our workshop floor via WhatsApp.</p>
+      </div>
+
+      <div class="contact-form-card">
+        <form id="coastalContactForm">
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="cfName">Your Full Name</label>
+              <input type="text" id="cfName" class="form-input" placeholder="e.g. Marcus Vance" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="cfPhone">Phone / WhatsApp</label>
+              <input type="tel" id="cfPhone" class="form-input" placeholder="+61 400 000 000" required>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="cfType">Project Category</label>
+              <select id="cfType" class="form-select">
+                <option value="Parametric Home Décor & Lighting">Parametric Home Décor & Lighting</option>
+                <option value="Topographic Marine & Coast Relief Map">Topographic Marine & Coast Relief Map</option>
+                <option value="Custom Backlit Lithophane Art">Custom Backlit Lithophane Art</option>
+                <option value="Architectural Scale Model Prototyping">Architectural Scale Model Prototyping</option>
+                <option value="Corporate Gifting & Bulk Production">Corporate Gifting & Bulk Production</option>
+                <option value="Custom CAD / STL Print File">I Have a 3D File (STL / OBJ / STEP)</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="cfDetails">Project Brief & Desired Dimensions</label>
+              <textarea id="cfDetails" class="form-textarea" placeholder="Describe the size, desired color tones, and intended usage..." required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-form-submit">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+            Send Project Brief via WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Floating WhatsApp Action Button -->
+  <a href="https://wa.me/61424454918?text=Hi%20Coastal%20Makers%2C%20I'd%20like%20to%20inquire%20about%20a%203D%20print" class="floating-wa-btn" target="_blank" rel="noopener" aria-label="WhatsApp Us Directly">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
+  </a>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 style="font-size: 1.25rem; font-weight: 800; margin-bottom: 0.85rem; color: #ffffff;">COASTAL MAKERS</h3>
+          <p style="color: rgba(255, 255, 255, 0.7); font-size: 0.9rem; line-height: 1.6; max-width: 340px;">
+            Sydney's specialist in bespoke 3D printed décor, architectural models, and rapid functional prototyping.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Creations</a></li>
+            <li><a href="materials.html">Materials Guide</a></li>
+            <li><a href="custom-orders.html">Custom Orders</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Specialties</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">Parametric Lamps</a></li>
+            <li><a href="products.html">Topographic Maps</a></li>
+            <li><a href="products.html">Lithophane Art</a></li>
+            <li><a href="materials.html">Eco Bio-Polymers</a></li>
+            <li><a href="custom-orders.html">Rapid 48hr Batch</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sydney Studio</h4>
+          <p style="color: rgba(255, 255, 255, 0.75); font-size: 0.9rem; margin-bottom: 0.5rem;">
+            📍 Sydney, New South Wales, Australia
+          </p>
+          <p style="color: rgba(255, 255, 255, 0.75); font-size: 0.9rem; margin-bottom: 0.5rem;">
+            📞 <a href="tel:+61424454918" style="color: #38bdf8;">+61 424 454 918</a>
+          </p>
+          <p style="color: rgba(255, 255, 255, 0.75); font-size: 0.9rem;">
+            ✉️ <a href="mailto:coastalmakers3d@gmail.com" style="color: #38bdf8;">coastalmakers3d@gmail.com</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Coastal Makers Sydney. All Rights Reserved. Crafted with precision additive engineering.</div>
+        <div>Pure Portfolio & Bespoke Production &bull; Sydney, NSW</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

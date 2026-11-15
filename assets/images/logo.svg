@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#082f49" />
+      <stop offset="100%" stop-color="#02131d" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Crest -->
+  <rect x="25" y="25" width="450" height="450" rx="90" fill="url(#darkBg)" stroke="url(#oceanGrad)" stroke-width="4" />
+  <rect x="42" y="42" width="416" height="416" rx="76" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5" stroke-dasharray="6,4" />
+
+  <!-- 3D Layering Wave Motif / Isometric Hexagon -->
+  <polygon points="250,110 330,155 330,245 250,290 170,245 170,155" fill="none" stroke="url(#oceanGrad)" stroke-width="5" />
+  <polyline points="170,155 250,200 330,155" fill="none" stroke="url(#oceanGrad)" stroke-width="4" />
+  <line x1="250" y1="200" x2="250" y2="290" stroke="url(#oceanGrad)" stroke-width="4" />
+
+  <!-- Wave Layering Lines Inside -->
+  <path d="M 195 210 Q 250 235 305 210" fill="none" stroke="#38bdf8" stroke-width="3" />
+  <path d="M 205 235 Q 250 260 295 235" fill="none" stroke="#ffffff" stroke-width="2.5" />
+
+  <!-- Typography -->
+  <text x="250" y="345" text-anchor="middle" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="28" font-weight="800" fill="#ffffff" letter-spacing="4">COASTAL MAKERS</text>
+  <text x="250" y="380" text-anchor="middle" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="13" font-weight="700" fill="#38bdf8" letter-spacing="6">CUSTOM 3D PRINTING &#8226; DÉCOR</text>
+  <text x="250" y="412" text-anchor="middle" font-family="'Plus Jakarta Sans', -apple-system, sans-serif" font-size="11" font-weight="500" fill="rgba(255, 255, 255, 0.7)" letter-spacing="3">SYDNEY, NSW &#8226; ADDITIVE CRAFT</text>
+</svg>
